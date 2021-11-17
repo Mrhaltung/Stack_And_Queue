@@ -20,6 +20,13 @@ namespace Stack_And_Queue
                 Console.WriteLine(item);
             }
             Console.WriteLine("-----------------------------------\n");
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Peeking the Integer : " + queue.Peek());
+                Console.WriteLine("Poping the Elements out of Queue : " + queue.Dequeue());
+            }
+            Console.WriteLine("-----------------------------------\n");
         }
     }
 }
